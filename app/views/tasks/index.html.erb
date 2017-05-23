@@ -1,0 +1,7 @@
+<h1>A list of all the tasks...</h1>
+
+<% @tasks.each do |task| %>
+<h3 <%= task.name %>></h3>
+<h3 <%= task.boolean %>></h3>
+<p <%= task.description %>></p>
+<% end %>
