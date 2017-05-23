@@ -1,0 +1,16 @@
+<%= form_for @task do |f| %>
+  <%= f.label :name, "Enter the task name" %>
+  <%= f.text_field :name %>
+  <hr>
+
+  <%= f.label :detail, "Enter the task detail" %>
+  <%= f.text_field :detail %>
+  <hr>
+
+  <%= f.label :completed, "Is the task completed?" %>
+  <%= f.text_field :completed %>
+  <hr>
+
+  <%= f.submit %>
+
+<% end %>
